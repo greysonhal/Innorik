@@ -37,7 +37,7 @@ const LandingPage = () => {
                   <span className="text-primary">BookVerse</span>
                 </h1>
                 <p className="lead text-muted mt-3 fs-5">
-                  A curated collection of stories, knowledge, and imagination. Explore genres from mystery to memoir, right here.
+                  A curated collection of stories, knowledge, and imagination. Explore genres from mystery to action, right here.
                 </p>
                 <Button variant="primary" size="lg" href="/books" className="mt-3">
                   Browse Books
@@ -63,7 +63,7 @@ const LandingPage = () => {
               <Col md={4} className="mb-4">
                 <h5 className="fw-bold">Wide Selection</h5>
                 <p className="text-muted">
-                  Fiction, non-fiction, textbooks & more—something special for every reader.
+                  Fiction, Suspense, Action & more—something special for every reader.
                 </p>
               </Col>
               <Col md={4} className="mb-4">
