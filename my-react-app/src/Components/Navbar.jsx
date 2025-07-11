@@ -10,12 +10,12 @@ const MainNavbar = ({ searchTerm, setSearchTerm }) => {
   };
 
   const handleLogout = () => {
-    // ✅ Clear JWT token
+    //  Clear JWT token
     localStorage.removeItem('token');
 
-    // ✅ Optional: clear other sensitive data or global states here
+    // Optional: clear other sensitive data or global states here
 
-    // ✅ Redirect to landing page
+    // Redirect to landing page
     navigate('/');
   };
 
