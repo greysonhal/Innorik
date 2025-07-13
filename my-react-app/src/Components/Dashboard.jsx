@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <FaPlusCircle className="display-4 text-primary mb-3" />
                 <Card.Title className="fs-4 fw-semibold">Add Book</Card.Title>
                 <Card.Text className="text-muted">Create a new book record in the store.</Card.Text>
-                <Link to="/addBook" className="stretched-link text-decoration-none text-primary fw-bold bg-warning">
+                <Link to="/addBook" className="stretched-link text-decoration-none text-primary fw-bold">
                   Go to page
                 </Link>
               </Card.Body>

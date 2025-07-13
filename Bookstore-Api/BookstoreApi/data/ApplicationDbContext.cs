@@ -5,9 +5,9 @@ using BookstoreApi.Models;
 
 namespace BookstoreApi.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext //inherits DBcontext from EF Core
     {
-        public ApplicationDbContext(DbContextOptions dbContextOptions)
+        public ApplicationDbContext(DbContextOptions dbContextOptions)  //Constructor 
             : base(dbContextOptions)
         { }
 
