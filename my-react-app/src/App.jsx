@@ -14,12 +14,12 @@ function App() {
 
   useEffect(() => {
   const fetchBooks = async () => {
-    const token = localStorage.getItem('token'); // ✅ Retrieve stored token
+    const token = localStorage.getItem('token'); // Retrieve stored token
 
     try {
-      const response = await fetch('http://localhost:5142/api/books', {
+      const response = await fetch('https://localhost:7094/api/books', {
         headers: {
-          Authorization: `Bearer ${token}` // ✅ Include token in header
+          Authorization: `Bearer ${token}` // Include token in header
         }
       });
 
@@ -42,7 +42,7 @@ function App() {
   fetchBooks();
 }, []);
 
-  // ✅ Filtering logic stays the same
+  // Filtering logic stays the same
   const filteredBooks = allBooks.filter((book) => {
     const matchesCategory =
       activeFilter === 'All Books' || book.category === activeFilter

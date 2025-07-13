@@ -23,7 +23,7 @@ const BookEdit = () => {
       const token = localStorage.getItem('token')
 
       try {
-        const response = await fetch('http://localhost:5142/api/books', {
+        const response = await fetch('https://localhost:7094/api/books', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -64,7 +64,7 @@ const BookEdit = () => {
     const token = localStorage.getItem('token')
 
     try {
-      const response = await fetch(`http://localhost:5142/api/books/${selectedBook.id}`, {
+      const response = await fetch(`https://localhost:7094/api/books/${selectedBook.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

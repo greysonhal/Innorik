@@ -15,7 +15,7 @@ const Dashboard = () => {
                 <FaPlusCircle className="display-4 text-primary mb-3" />
                 <Card.Title className="fs-4 fw-semibold">Add Book</Card.Title>
                 <Card.Text className="text-muted">Create a new book record in the store.</Card.Text>
-                <Link to="/addBook" className="stretched-link text-decoration-none text-primary fw-bold">
+                <Link to="/addBook" className="stretched-link text-decoration-none text-primary fw-bold bg-warning">
                   Go to page
                 </Link>
               </Card.Body>
@@ -28,7 +28,7 @@ const Dashboard = () => {
                 <FaEdit className="display-4 text-warning mb-3" />
                 <Card.Title className="fs-4 fw-semibold">Edit Book</Card.Title>
                 <Card.Text className="text-muted">Modify existing book information.</Card.Text>
-                <Link to="/editBook" className="stretched-link text-decoration-none text-warning fw-bold">
+                <Link to="/editBook" className="stretched-link text-decoration-none text-warning fw-bold ">
                   Go to page
                 </Link>
               </Card.Body>

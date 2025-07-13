@@ -31,7 +31,7 @@ const BookAdd = () => {
       const token = localStorage.getItem('token') // Get JWT token
 
       try {
-        const response = await fetch('http://localhost:5142/api/books', {
+        const response = await fetch('https://localhost:7094/api/books', {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -73,7 +73,7 @@ const BookAdd = () => {
     const token = localStorage.getItem('token')
 
     try {
-      const response = await fetch('http://localhost:5142/api/books', {
+      const response = await fetch('https://localhost:7094/api/books', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
